@@ -4,9 +4,28 @@
     "title": "Use City of Austin Services",
     "body": "<p>The City of Austin provides hundreds of services to people. This is a short list of services that will grow over time.</p>"
   },
-  "topicpage":{
-    "title": "Use City of Austin Services",
-    "body": "<p>The City of Austin provides hundreds of services to people. This is a short list of services that will grow over time.</p>"
+  "topics":{
+    "1": {
+    "title": "Manage recycling, compost, trash, energy, and water",
+    "body": "<h1>Use City of Austin services</h1><p>TThe City of Austin provides hundreds of services to residents to help them manage things like recycling, trash, energy, and water. This is a short list of services that will grow over time.</p>",
+    "services": [{
+      "id": 5,
+      "title": "Visit the Recycle and Reuse Drop-off Center"
+    },
+    {
+      "id": 6,
+      "title": "Look up recycling, compost, and trash pick-up days"
+    },
+    {
+      "id": 7,
+      "title": "Get ready for bulk item collection"
+    }
+    ]
+    },
+    "2": {
+    "title": "Participate in Austin government",
+    "body": "<h1>Use City of Austin service</h1><p>The City of Austin provides hundreds of services to people. This is a short list of services that will grow over time.</p>"
+    }
   },
   "contacts":[
     {
