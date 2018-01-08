@@ -13,6 +13,7 @@ import Footer from "components/layout/Footer"
 // page routes
 import HomePage from "pages/HomePage"
 import SearchPage from "pages/SearchPage"
+import Topic from "pages/Topic"
 import ServicesIndex from "pages/Services"
 import Service from "pages/Service"
 
@@ -33,6 +34,7 @@ class App extends Component {
           <section className="coa-main">
             <Route exact path="/" component={HomePage} />
             <Route exact path="/services" component={ServicesIndex} />
+            <Route exact path="/topic/:id" component={Topic} />
             <Route exact path="/search" component={SearchPage} />
             <Route path="/service/:slug" component={Service} />
           </section>
